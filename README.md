@@ -1,4 +1,4 @@
-RedBean_German_PorterStemmer
+RedBean German Porter Stemmer plugin
 =======================
 
 This is a plugin for the [RedBeanPHP ORM](http://www.redbeanphp.com/), which
@@ -23,14 +23,14 @@ Usage / Examples:
 - Either manually require the file or see the [RedBean instructions](http://www.redbeanphp.com/replica) for building your on RB.php file
 
 There are two things you can do with the plugin. First just get a stemmed version of a word
-by doing following
+by doing the following:
 
 ```php
    R::stem("YOUR SEARCH PHRASE");
 ```
 
 Note that the search phrase may consist of several words and the module will provide you
-the stems of each of them. The return value is a associative array with the original word as key
+the stems of each of them. The return value is an associative array with the original word as key
 and the stemmed version as value.
 
 ```php
